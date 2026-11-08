@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -eu
+gradle :1:assembleDebug
+echo "APK: 1/build/outputs/apk/debug/1-debug.apk"
